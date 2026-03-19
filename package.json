@@ -1,0 +1,13 @@
+{
+  "name": "gem-hunter-bot",
+  "version": "1.0.0",
+  "description": "Solana AI gem hunter trading bot",
+  "main": "bot.js",
+  "scripts": {
+    "start":    "node bot.js",
+    "backtest": "node backtest.js",
+    "pm2":      "pm2 start bot.js --name gem-hunter --restart-delay 5000"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["solana", "trading", "bot", "defi"]
+}
